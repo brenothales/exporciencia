@@ -99,7 +99,7 @@ function onYouTubePlayerAPIReady() {
 			ratio                  : "16/9",
 			showYTLogo             : false,
 			videoURL               : null,
-			startAt                : 0,
+			startAt                : 10,
 			autoPlay               : true,
 			vol                    :100,
 			addRaster              : false,
