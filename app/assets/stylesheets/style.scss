@@ -734,13 +734,13 @@ header {
   // margin: 0 -15px;
   // border: 0;
   float: right;
-  width: 40%;
+  width: 42%;
   li {
     margin: 0;
     padding: 0 15px;
     a {
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
       margin: 0;
       padding: 54px 0 0;
       text-align: center;
@@ -775,6 +775,21 @@ header {
       &.i6 i {
 
       }
+      &.i7 i {
+
+      }
+      &.i8 i {
+
+      }
+      &.i9 i {
+
+      }
+      &.i10 i {
+
+      }
+      &.i11 i {
+
+      }
     }
   }
 }
@@ -796,17 +811,17 @@ header {
   }
   a:hover i {
     background-position: 0 -120px;
-    transform: translateY(-10px);
-    -o-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
+    transform: translateY(-26px);
+    -o-transform: translateY(-26px);
+    -ms-transform: translateY(-26px);
+    -webkit-transform: translateY(-26px);
   }
   &.active a i {
     background-position: 0 0;
-    transform: translateY(-16px);
-    -o-transform: translateY(-16px);
-    -ms-transform: translateY(-16px);
-    -webkit-transform: translateY(-16px);
+    transform: translateY(-36px);
+    -o-transform: translateY(-36px);
+    -ms-transform: translateY(-36px);
+    -webkit-transform: translateY(-36px);
   }
 }
 
@@ -814,8 +829,8 @@ header {
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  line-height: 20px;
-  font-size: 20px;
+  line-height: 12px;
+  font-size: 12px;
   color: #fff;
   opacity: 0;
   transform: translateY(-30px);
@@ -828,10 +843,10 @@ header {
 
 .nav-tabs li.active a span {
   opacity: 1;
-  transform: translateY(-6px);
-  -o-transform: translateY(-6px);
-  -ms-transform: translateY(-6px);
-  -webkit-transform: translateY(-6px);
+  transform: translateY(-38px);
+  -o-transform: translateY(-38px);
+  -ms-transform: translateY(-38px);
+  -webkit-transform: translateY(-38px);
 }
 
 /* __________ Multi Purpose __________ */
