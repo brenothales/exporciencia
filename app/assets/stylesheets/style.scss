@@ -869,10 +869,24 @@ header {
     font-size: 17px;
     color: #666;
   }
-  .btn {
-    margin-top: 30px;
-    margin-right: 16px;
+  
+  .btnRegulamento{
+    background-color: #01C059 !important;
+    color:white !important;
   }
+
+   .btnRegulamento-active {
+    background-color: #01C059 !important;
+    color:white !important;
+  }
+
+  .btn {
+    margin-top: 3px;
+    margin-right: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  
   .btn-active {
     overflow: hidden;
     span:before {
