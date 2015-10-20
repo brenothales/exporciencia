@@ -48,7 +48,7 @@ SLIDEFADE
     var lmnt = this;
     if(lmnt.length === 0) { return false; }
     var pg = {
-      /*user defined Defaults*/
+      /*user defined Defaults*/ 
       imagePath: '/images/plusgallery',
       type: 'google',
       albumTitle: false, //show the album title in single album mode
@@ -58,7 +58,7 @@ SLIDEFADE
       exclude: null,
       include: null,
       imageData: null,
-      // images_path: '<%= image_url("square.gif") %>',  
+
 
       
       /*don't touch*/
@@ -293,7 +293,6 @@ SLIDEFADE
             '<a href="#" rel="next" id="pgnext" class="pgzoomarrow" title="Next">Next</a>' +
             '<div id="pgzoomscroll">' +
               '<ul id="pgzoom"></ul>' +
-              '<span class="st_facebook_large" displayText="Facebook"></span>' +
             '</div>' +
           '</div>'
           );
@@ -759,7 +758,7 @@ SLIDEFADE
           
           $.each(pg.imgArray,function(i){
              pgZoomHTML = pgZoomHTML  + '<li class="pgzoomslide loading" id="pgzoomslide' + i + '" style="width: ' + pg.winWidth + 'px;"><img src="http://localhost:3000/assets/plusgallery/square-0fde333fb72955b4871df443268acb60.gif" class="pgzoomspacer"><span class="pgzoomcaption">' + pg.titleArray[i] + '</span></li>';
-            // pgZoomHTML = pgZoomHTML  + '<li class="pgzoomslide loading" id="pgzoomslide' + i + '" style="width: ' + pg.winWidth + 'px;">' + '<%= image_tag ("preloader.gif"), class:"pgzoomspacer" %>' + '<span class="pgzoomcaption">' + pg.titleArray[i] + '</span></li>';
+
     
             if(i + 1 == pg.imgArray.length) {
               //at the end of the loop

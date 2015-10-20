@@ -34,7 +34,7 @@
 	-moz-transition: all 0.3s ease-out 0.1s;
 	-ms-transition: all 0.3s ease-out 0.1s;
 	-o-transition: all 0.3s ease-out 0.1s;
-	transition: all 0.3s ease-out 0.1s
+	transition: all 0.3s ease-out 0.1s;
 	-webkit-backface-visibility: hidden;
 	text-decoration: none;
 }
