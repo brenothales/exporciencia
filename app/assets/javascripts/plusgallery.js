@@ -292,7 +292,9 @@ SLIDEFADE
             '<a href="#" rel="previous" id="pgprevious" class="pgzoomarrow" title="previous">Previous</a>' +
             '<a href="#" rel="next" id="pgnext" class="pgzoomarrow" title="Next">Next</a>' +
             '<div id="pgzoomscroll">' +
-              '<ul id="pgzoom"></ul>' +
+              '<ul id="pgzoom"> ' +
+              '<li><span class="st_sharethis_large" displayText="ShareThis"></span> <span class="st_facebook_large" displayText="Facebook"></span> <span class="st_twitter_large" displayText="Tweet"></span> <span class="st_linkedin_large" displayText="LinkedIn"></span> <span class="st_pinterest_large" displayText="Pinterest"></span> <span class="st_email_large" displayText="Email"></span></li>' +
+              '</ul>' +
             '</div>' +
           '</div>'
           );
