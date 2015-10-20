@@ -21,6 +21,7 @@
 //= requite jquery.BlackAndWhite
 //= requite myscript
 //= require turbolinks
+//= require plusgallery
 //= require_tree .
 
 
